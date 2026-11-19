@@ -1,0 +1,15 @@
+{
+  "name": "fast_glu",
+  "version": "0.1.0",
+  "description": "A GLU resnet MLP's forward pass in plain JS and in WebAssembly SIMD",
+  "private": true,
+  "main": "fast.js",
+  "scripts": {
+    "test": "node --test",
+    "example": "node example.js",
+    "build": "./build.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
